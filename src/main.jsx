@@ -1,17 +1,18 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import './App.css'
 import {Header} from "./components/header/header.jsx";
 import Gallery from "./components/slide-images/gallery.jsx";
 import {Items} from "./components/items/items.jsx";
 import CheckboxListSecondary from "./components/books/books.jsx";
+import AppLibrary from "./AppLibrary.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <AppLibrary/>
     <Header />
     <Gallery />
     <Items/>
     <CheckboxListSecondary/>
-  </StrictMode>,
+  </StrictMode>
 )

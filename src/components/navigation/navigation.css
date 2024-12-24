@@ -1,0 +1,74 @@
+header {
+    width: 100%;
+    height: 100px;
+    background: #FAEAD6;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav .right-section {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+    padding: 25px;
+}
+
+header nav .right-section a {
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+header nav .right-section .item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+}
+
+header nav .right-section .item-shopping-cart {
+    background-image: url("./img/shopping-and-commerce.png");
+}
+
+header nav .right-section .item-user {
+    background-image: url("./img/usuario.png");
+}
+
+header nav .right-section .item-user:hover {
+    background-image: url("./img/usuario.png");
+}
+
+header nav .right-section .item-text:hover {
+    background: #000;
+    color: #fff;
+}
+
+header nav .left-section {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+header nav .left-section img {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+nav .search {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
