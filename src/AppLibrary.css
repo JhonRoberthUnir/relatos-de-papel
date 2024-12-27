@@ -13,8 +13,8 @@
 }
 
 .container {
-  background: #DCDBDB;
-  width: 1000px;
+  background: #834321;
+  width: 100%;
   margin: 10px auto;
   overflow: hidden;
 }
@@ -24,7 +24,6 @@ header {
 }
 
 .main {
-  width: 700px;
   background: #fff;
   float: left;
 }
